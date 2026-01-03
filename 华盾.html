@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广西盛世华盾航空科技有限公司 - 低空经济领航者</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-gradient {
+            background: linear-gradient(rgba(0, 32, 74, 0.8), rgba(0, 32, 74, 0.6)), 
+                        url('https://images.unsplash.com/photo-1473960104532-479e3951aae3?auto=format&fit=crop&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover { transform: translateY(-10px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-xl">S</span>
+                </div>
+                <span class="text-xl font-bold tracking-tight text-blue-900">盛世华盾航空</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-blue-600">关于我们</a>
+                <a href="#products" class="hover:text-blue-600">产品中心</a>
+                <a href="#solutions" class="hover:text-blue-600">行业应用</a>
+                <a href="#join" class="hover:text-blue-600 text-blue-700 font-bold">加入我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient h-screen flex items-center justify-center text-white px-6">
+        <div class="max-w-4xl text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">领航低空经济<br><span class="text-blue-400">重塑空间价值</span></h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90">广西唯一具备无人机“研、产、学、用”一体化能力的军工数智集成服务商</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#products" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full font-bold transition">探索产品</a>
+                <a href="#about" class="border border-white/50 hover:bg-white/10 px-8 py-4 rounded-full font-bold transition">了解更多</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-blue-600 font-bold tracking-widest uppercase">Company Profile</span>
+                <h2 class="text-4xl font-bold mt-2 mb-6 text-blue-950">技术驱动，实业兴邦</h2>
+                <p class="text-lg text-slate-600 mb-6">广西盛世华盾航空科技有限公司总部位于南宁，深度布局低空经济产业链。我们联合<b>四川腾盾、傲势科技</b>等头部企业，以及<b>武汉大学</b>科研力量，致力于将尖端无人机技术转化成生产力。</p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="border-l-4 border-blue-600 pl-4">
+                        <div class="text-3xl font-bold text-blue-900">100+</div>
+                        <div class="text-sm text-slate-500">核心专利与技术</div>
+                    </div>
+                    <div class="border-l-4 border-blue-600 pl-4">
+                        <div class="text-3xl font-bold text-blue-900">军工级</div>
+                        <div class="text-sm text-slate-500">制造与交付标准</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-blue-900 rounded-2xl h-80 flex items-center justify-center text-blue-300 italic p-8 text-center">
+                "致力于构建安全、智能、高效的低空数字生命线"
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16 text-blue-950">核心产品矩阵</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-8 rounded-2xl">
+                    <div class="text-blue-600 text-4xl mb-4">✈️</div>
+                    <h3 class="text-xl font-bold mb-4">大型固定翼无人机</h3>
+                    <p class="text-slate-600">具备长航时、大载重性能，适用于长距离物资投送与海事巡航。</p>
+                </div>
+                <div class="glass-card p-8 rounded-2xl text-white bg-blue-900">
+                    <div class="text-blue-400 text-4xl mb-4">🚁</div>
+                    <h3 class="text-xl font-bold mb-4">垂直起降(VTOL)</h3>
+                    <p class="text-blue-100">无需跑道，兼顾多旋翼的便捷与固定翼的高效。主打测绘与应急。</p>
+                </div>
+                <div class="glass-card p-8 rounded-2xl">
+                    <div class="text-blue-600 text-4xl mb-4">🛰️</div>
+                    <h3 class="text-xl font-bold mb-4">数智化集成系统</h3>
+                    <p class="text-slate-600">配套无人机地面站与人工智能分析后台，实现数据实时回传与辅助决策。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="bg-blue-600 rounded-3xl p-12 text-white flex flex-col md:flex-row items-center justify-between">
+            <div>
+                <h2 class="text-3xl font-bold mb-4">寻找志同道合的航天人</h2>
+                <p class="text-blue-100 mb-0">我们在寻找：研发经理、无人机飞控工程师、市场营销专家</p>
+            </div>
+            <a href="mailto:hr@sshd-aviation.com" class="mt-8 md:mt-0 bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:shadow-lg transition">立即投递简历</a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 border-b border-slate-800 pb-12">
+            <div>
+                <h3 class="text-white font-bold mb-6">广西盛世华盾航空</h3>
+                <p>地址：广西壮族自治区南宁市五象新区数智城</p>
+                <p>电话：0771-XXXXXXX</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold mb-6">战略伙伴</h3>
+                <ul class="space-y-2">
+                    <li>四川腾盾科技有限公司</li>
+                    <li>傲势科技 (AOSSCI)</li>
+                    <li>武汉大学遥感测绘国家重点实验室</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-bold mb-6">关注我们</h3>
+                <div class="flex space-x-4">
+                    <div class="w-20 h-20 bg-white p-2">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=SSHD" alt="微信公众号">
+                    </div>
+                    <p class="text-sm">扫描二维码<br>关注官方公众号</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 text-sm">
+            &copy; 2026 广西盛世华盾航空科技有限公司 | 桂ICP备XXXXXXXX号
+        </div>
+    </footer>
+
+</body>
+</html>
